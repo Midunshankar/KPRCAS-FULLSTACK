@@ -5,6 +5,8 @@ import Home from './page/Home.jsx'
 import About from './page/About.jsx'
 import contact from './page/contact.jsx'
 import service from './page/service.jsx'
+import UseState from './Hooks/UseState.jsx'
+import UseEffect from './Hooks/UseEffect.jsx'
 const App = () => {
   return (
     <>
@@ -17,6 +19,8 @@ const App = () => {
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<contact/>}/>
       <Route path='/service' element={<service/>}/>
+      <Route path='/useState' element={<UseState/>}/>
+      <Route path='/useEffect' element={<UseEffect/>}/>
     </Routes>
     </>
   )
